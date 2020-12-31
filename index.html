@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+    ></script>
+    <!-- jqueryで実装する場合 -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="4"><input type="text" id="result" /></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="7" onclick="edit(this)" /></td>
+        <td><input type="button" value="8" onclick="edit(this)" /></td>
+        <td><input type="button" value="9" onclick="edit(this)" /></td>
+        <td><input type="button" value="+" onclick="edit(this)" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="4" onclick="edit(this)" /></td>
+        <td><input type="button" value="5" onclick="edit(this)" /></td>
+        <td><input type="button" value="6" onclick="edit(this)" /></td>
+        <td><input type="button" value="-" onclick="edit(this)" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" onclick="edit(this)" /></td>
+        <td><input type="button" value="2" onclick="edit(this)" /></td>
+        <td><input type="button" value="3" onclick="edit(this)" /></td>
+        <td><input type="button" value="*" onclick="edit(this)" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="0" onclick="edit(this)" /></td>
+        <td><input type="button" value="/" onclick="edit(this)" /></td>
+        <td><input type="button" value="." onclick="edit(this)" /></td>
+        <td><input type="button" value="=" onclick="calc()" /></td>
+      </tr>
+    </table>
+
+    <script src="main.js">
+
+    </script>
+  </body>
+</html>
